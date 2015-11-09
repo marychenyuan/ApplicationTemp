@@ -1,0 +1,22 @@
+//
+//  ApplicationTemp-Prefix.pch
+//  ApplicationTemp
+//
+//  Created by 陈园 on 15/11/4.
+//  Copyright © 2015年 陈园. All rights reserved.
+//
+
+// 作用： 用于存放全局宏、包含整个项目中都用得上的头文件、自动打开或关闭日志功能
+
+#ifndef ApplicationTemp_Prefix_pch
+#define ApplicationTemp_Prefix_pch
+
+#import "ATURLDefine.h"
+#import "ATCommonDefine.h"
+#import "ATEnumDefine.h"
+#import "ATUtil.h"
+
+#import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+
+#endif /* ApplicationTemp_Prefix_pch */
