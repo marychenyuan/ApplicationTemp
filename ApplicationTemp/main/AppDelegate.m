@@ -23,6 +23,8 @@
     self.window.rootViewController = [[ATTabbarViewController alloc] init];
     [self.window makeKeyAndVisible];
     
+    NSLog(@"-------hahahahhah");
+    
     return YES;
 }
 
