@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1214E91A1BF1826C0032348D /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 1214E9191BF1826C0032348D /* Foundation+Log.m */; };
 		B51C30A51BE9F3980065EDE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C30A41BE9F3980065EDE7 /* main.m */; };
 		B51C30B01BE9F3980065EDE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51C30AF1BE9F3980065EDE7 /* Assets.xcassets */; };
 		B51C30BE1BE9F3980065EDE7 /* ApplicationTempTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C30BD1BE9F3980065EDE7 /* ApplicationTempTests.m */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		114D076E8E6C28413CA458D0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1214E9191BF1826C0032348D /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		6136D3C5AC25487F92DFD521 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9C3FBD3BC0AC9D4932A502B6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51C30A01BE9F3980065EDE7 /* ApplicationTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplicationTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -353,6 +355,7 @@
 		B51C30DC1BE9F3E90065EDE7 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				1214E9191BF1826C0032348D /* Foundation+Log.m */,
 				B5273AEF1BEB07FB00F9C5AE /* UIView+Extension.h */,
 				B5273AEE1BEB07FB00F9C5AE /* UIView+Extension.m */,
 				B5273B071BEB31A000F9C5AE /* UIViewController+CustomNavigation.h */,
@@ -641,6 +644,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1214E91A1BF1826C0032348D /* Foundation+Log.m in Sources */,
 				B5273AE31BEB04E200F9C5AE /* NoticeViewController.m in Sources */,
 				B5273B0F1BEB344900F9C5AE /* AFNetworkManager.m in Sources */,
 				B5273AD01BEAEBAF00F9C5AE /* FourPageViewController.m in Sources */,

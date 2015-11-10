@@ -96,4 +96,11 @@
     return self.frame.size;
 }
 
+- (CGFloat)maxX {
+    return CGRectGetMaxX(self.frame);
+}
+
+- (CGFloat)maxY {
+    return CGRectGetMaxY(self.frame);
+}
 @end
