@@ -25,6 +25,7 @@
     NoticeViewController *noticeVC = [[NoticeViewController alloc] init];
     noticeVC.title = @"提醒";
     [self.navigationController pushViewController:noticeVC animated:YES];
+  
     
 }
 
