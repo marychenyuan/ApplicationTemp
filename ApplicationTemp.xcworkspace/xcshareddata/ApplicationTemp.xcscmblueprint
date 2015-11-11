@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ED4C4727C603CA0A11EC0EDCAD7BB0DB72D0B216",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "56CBFB4DA5447E6BD53B743E6F9041DC34AA0145" : 0,
+    "ED4C4727C603CA0A11EC0EDCAD7BB0DB72D0B216" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "35F0923D-AE74-47B4-8CF0-F2EE542FD2E7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "56CBFB4DA5447E6BD53B743E6F9041DC34AA0145" : "",
+    "ED4C4727C603CA0A11EC0EDCAD7BB0DB72D0B216" : "ApplicationTemp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ApplicationTemp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ApplicationTemp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/marychenyuan\/oh-my-zsh.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "56CBFB4DA5447E6BD53B743E6F9041DC34AA0145"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:marychenyuan\/ApplicationTemp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ED4C4727C603CA0A11EC0EDCAD7BB0DB72D0B216"
+    }
+  ]
+}
