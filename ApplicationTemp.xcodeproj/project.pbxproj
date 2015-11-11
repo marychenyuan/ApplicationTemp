@@ -34,6 +34,10 @@
 		B5273B081BEB31A000F9C5AE /* UIViewController+CustomNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = B5273B061BEB31A000F9C5AE /* UIViewController+CustomNavigation.m */; };
 		B5273B0F1BEB344900F9C5AE /* AFNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5273B0E1BEB344900F9C5AE /* AFNetworkManager.m */; };
 		B5273B121BEB46EE00F9C5AE /* AFNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B5273B111BEB46EE00F9C5AE /* AFNetworkClient.m */; };
+		B57C21E61BF2DAB9009F6A92 /* MojoDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C21E31BF2DAB9009F6A92 /* MojoDatabase.m */; settings = {ASSET_TAGS = (); }; };
+		B57C21E71BF2DAB9009F6A92 /* MojoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C21E51BF2DAB9009F6A92 /* MojoModel.m */; settings = {ASSET_TAGS = (); }; };
+		B57C21EA1BF2DB5A009F6A92 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B57C21E91BF2DB5A009F6A92 /* libsqlite3.tbd */; };
+		B57C21ED1BF2DBAB009F6A92 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C21EC1BF2DBAB009F6A92 /* DBManager.m */; settings = {ASSET_TAGS = (); }; };
 		DE0C6C70143F0F659CE99E82 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3FBD3BC0AC9D4932A502B6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +107,13 @@
 		B5273B0E1BEB344900F9C5AE /* AFNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkManager.m; sourceTree = "<group>"; };
 		B5273B101BEB46EE00F9C5AE /* AFNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkClient.h; sourceTree = "<group>"; };
 		B5273B111BEB46EE00F9C5AE /* AFNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkClient.m; sourceTree = "<group>"; };
+		B57C21E21BF2DAB9009F6A92 /* MojoDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MojoDatabase.h; sourceTree = "<group>"; };
+		B57C21E31BF2DAB9009F6A92 /* MojoDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MojoDatabase.m; sourceTree = "<group>"; };
+		B57C21E41BF2DAB9009F6A92 /* MojoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MojoModel.h; sourceTree = "<group>"; };
+		B57C21E51BF2DAB9009F6A92 /* MojoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MojoModel.m; sourceTree = "<group>"; };
+		B57C21E91BF2DB5A009F6A92 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B57C21EB1BF2DBAB009F6A92 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		B57C21EC1BF2DBAB009F6A92 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57C21EA1BF2DB5A009F6A92 /* libsqlite3.tbd in Frameworks */,
 				DE0C6C70143F0F659CE99E82 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +168,7 @@
 		B51C30A21BE9F3980065EDE7 /* ApplicationTemp */ = {
 			isa = PBXGroup;
 			children = (
+				B57C21E81BF2DB4A009F6A92 /* Framework */,
 				B51C30E51BE9F4640065EDE7 /* lib */,
 				B51C30DB1BE9F3E90065EDE7 /* common */,
 				B51C30E11BE9F40D0065EDE7 /* main */,
@@ -392,6 +405,7 @@
 		B51C30E51BE9F4640065EDE7 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				B57C21E11BF2DAB9009F6A92 /* MojoDatabase */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -477,13 +491,34 @@
 		B5273B0C1BEB342200F9C5AE /* DBManager */ = {
 			isa = PBXGroup;
 			children = (
+				B57C21EB1BF2DBAB009F6A92 /* DBManager.h */,
+				B57C21EC1BF2DBAB009F6A92 /* DBManager.m */,
 			);
 			path = DBManager;
+			sourceTree = "<group>";
+		};
+		B57C21E11BF2DAB9009F6A92 /* MojoDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				B57C21E21BF2DAB9009F6A92 /* MojoDatabase.h */,
+				B57C21E31BF2DAB9009F6A92 /* MojoDatabase.m */,
+				B57C21E41BF2DAB9009F6A92 /* MojoModel.h */,
+				B57C21E51BF2DAB9009F6A92 /* MojoModel.m */,
+			);
+			path = MojoDatabase;
+			sourceTree = "<group>";
+		};
+		B57C21E81BF2DB4A009F6A92 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 		EF7529A1F02FC5169617D768 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B57C21E91BF2DB5A009F6A92 /* libsqlite3.tbd */,
 				9C3FBD3BC0AC9D4932A502B6 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -630,11 +665,14 @@
 			files = (
 				1214E91A1BF1826C0032348D /* Foundation+Log.m in Sources */,
 				B5273AE31BEB04E200F9C5AE /* NoticeViewController.m in Sources */,
+				B57C21E71BF2DAB9009F6A92 /* MojoModel.m in Sources */,
 				B5273B0F1BEB344900F9C5AE /* AFNetworkManager.m in Sources */,
 				B5273AD01BEAEBAF00F9C5AE /* FourPageViewController.m in Sources */,
 				B51C31051BEA0B180065EDE7 /* ATFourPageManager.m in Sources */,
 				B5273B121BEB46EE00F9C5AE /* AFNetworkClient.m in Sources */,
+				B57C21ED1BF2DBAB009F6A92 /* DBManager.m in Sources */,
 				B5273AD91BEAED0200F9C5AE /* ATTabbarViewController.m in Sources */,
+				B57C21E61BF2DAB9009F6A92 /* MojoDatabase.m in Sources */,
 				B5273B081BEB31A000F9C5AE /* UIViewController+CustomNavigation.m in Sources */,
 				B51C30A51BE9F3980065EDE7 /* main.m in Sources */,
 				B5273AC61BEAEB7A00F9C5AE /* TwoPageViewController.m in Sources */,
